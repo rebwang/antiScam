@@ -1,0 +1,307 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* General style rule set for the navbar */
+.navbar {
+    position: fixed; /* Keeps the navbar fixed at the top */
+    z-index: 1;
+    top: 0; /* Aligns it to the very top of the page */
+    width: 100%; /* Ensures it spans the full width */
+    background-color: black;
+    height: 60px;
+  }
+  
+  /* General style rule set for all items in ul */
+  .navbar ul {
+    display: flex; 
+    flex-direction: row; 
+    align-items: baseline;
+    list-style: none;
+    padding: 20px; 
+    margin: 0;
+  }
+  
+  /* Style rule set for individual li */
+  .navbar ul li {
+    margin: 0px 10px;
+  }
+  
+  /* Style rule set for individual li link */
+  .navbar ul li a {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: palevioletred;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px 10px; /* Add horizontal padding for clickable area */
+  }
+  
+  /* Style rule set for hovered link */
+  .navbar ul li a:hover {
+    font-weight: bold;
+    color: white;
+  }
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: black;
+}
+
+/* Add style to button */
+#theme-button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: skyblue;
+  font-size: 12px;
+  text-decoration: dotted;
+  text-align: center;
+  border: 5px;
+  align-items: baseline;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 80px;
+    margin-bottom: 5px;
+    text-align: center;
+    }
+
+.header-button {
+    background-color: palevioletred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 15px 15px;
+    margin: 30px;
+    border: 20px;
+    cursor: pointer;
+    border-radius: 100%
+  }
+
+
+.header-button:hover {
+  background-color: black;
+  }
+
+
+#logo {
+  font-family: cursive;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  text-align: center;
+  font-size: 100px;
+  color: lightskyblue;
+}
+
+
+.header-item:nth-of-type(1) {
+  display: flex;
+  height: 50%;
+}
+
+h2 {
+  color:skyblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  color: grey;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.twocolumn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+  flex-direction: row;
+  }
+
+
+#country {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    box-sizing: border-box;
+    padding: 0px;
+    list-style: none;
+    color: palevioletred;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+p {
+  color: palevioletred;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.image-item:nth-of-type(1) {
+  width: 350px;
+  height: 250px;
+}
+
+.aboutus-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.aboutus-item:nth-of-type(1) {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.aboutus-item:nth-of-type(2) {
+  margin-right: 30px;
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#article {
+  color: palevioletred;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#article:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+
+
+.footer {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    left: 0;
+    margin: 5px;
+    width: 100%;
+  }
+
+  .error {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    background:pink;
+  }
+
+  #sign-petition {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: skyblue;
+  }
+
+  #sign-now-button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: skyblue
+  }
+
+  .revealable {
+    position: relative;
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 2s, transform 2s ease;
+}
+
+  .revealable.active {
+      opacity: 1;
+      transform: translateY(0);
+  }
+
+  #reduce-motion {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightsalmon;
+    font-size: 12px;
+    text-decoration: dotted;
+    text-align: center;
+    border: 5px;
+    align-items: baseline;
+  }
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#close-modal {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: skyblue
+}

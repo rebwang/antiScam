@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>anti-Scam</title> 
+    <link rel="icon" href="img/money.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+    
+<body>
+    <div class="navbar">
+        <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#data">Data</a></li>
+        <li><a href="#">Latest Trends</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><button id="theme-button">Toggle Dark Mode</button></li>
+        <li><button id="reduce-motion">Reduce Motion</button></li>
+        </ul>
+    </div>
+
+    <!--- Headings --->
+    <div class="header-container">
+        <h1 id="logo">anti-Scam</h1>
+    </div>
+
+    <div class="header-container">
+        <button class="header-button" type="button">Tell Us Your Story</button>
+        <button class="header-button" type="button">Report A Scam</button>
+    </div>  
+
+    <!--- About --->
+    <div class="image-container">
+        <img class="image-item" src="img/scam.jpg"/>
+    </div>
+    <div class="body-container revealable" id="data">
+        <h2>DO YOU KNOW...</h2>
+        <h3>US Nationwide Fruad Losses Top $10 Billion in 2023</h3>
+    </div>
+
+    <!--- Data --->
+    <div class="body-container revealable">
+        <h2>In Addition...</h2>
+        <h3>Top 10 scamming countries in the world to be aware</h3>
+        <img src="img/world.png"/>
+        <ul class ="twocolumn-container revealable">
+            <li id="country"> Nigeria</li>
+            <li id="country"> India</li>
+            <li id="country"> China</li>
+            <li id="country"> Brazil</li>
+            <li id="country"> Pakistan</li>
+            <li id="country"> Indonesia</li>
+            <li id="country"> Venezuela</li>
+            <li id="country"> South Africa</li>
+            <li id="country"> Philippines</li>
+            <li id="country"> Romania</li>
+        </ul>
+    </div>  
+
+    <!--- Impact --->
+    <div class="body-container">
+        <h2 id="about">Our Impact</h2>
+        <div class="image-container">
+            <img src="img/help.jpg" width=500px height="250"/>
+        </div>
+        <div class="aboutus-container">
+            <div class="aboutus-item revealable">
+                <h3>What We Do</h3>
+                <p>Our mission is to protect individuals and communities from the growing threat of scams and fraud. We are dedicated to raising awareness, providing education, and offering practical tools to help you recognize, avoid, and report fraudulent activities.
+                </p>
+            </div>
+
+            <div class="aboutus-item revealable">
+                <h3>How You Can Help</h3>
+                <p>Consider supporting our efforts by donating or volunteering. Your contributions enable us to expand our resources, reach more people, and strengthen our advocacy efforts. Together, we can build a more resilient defense against scams.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Petition Section -->
+    <div class="body-container revealable">
+        <div class="petition" id="petition">
+            <h2>Sign Our Petition 📢</h2>
+            <div class="petition-container revealable">
+                <div class="petition-para revealable">
+                    <p>
+                        We, the undersigned, call for urgent action against the alarming rise of scams that prey on individuals and families, particularly the most vulnerable among us. These deceitful practices cause significant financial losses and emotional distress, eroding the trust that is vital to the fabric of our communities. Scammers exploit technology and social media to reach their targets, often impersonating legitimate organizations and creating sophisticated schemes that are difficult to detect. 
+
+                        We believe that it is imperative for lawmakers and community leaders to implement stricter regulations and penalties for fraudulent activities. Additionally, we urge the development of comprehensive public awareness campaigns that educate citizens about the warning signs of scams and equip them with the tools needed to protect themselves. Resources and support for victims must also be prioritized to help them recover and rebuild their lives. 
+                        
+                        Together, we can foster a culture of vigilance and solidarity, ensuring that our communities remain safe and resilient against these harmful tactics. By signing this petition, we stand together in the fight against scams and demand a safer environment for all.
+                    </p>
+                </div>
+
+                <div class="signatures revealable">
+                    <p>🖊️ Kate from Japan supports this.</p>
+                    <p>🖊️ Victim from Thailand supports this.</p>
+                    <p>🖊️ Teresa from Seattle supports this.</p>
+                    <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Sign Petition Form --->
+    <div class="form-container revealable">
+        <form id="sign-petition" title="sign-petition">
+            <!-- inputs go here -->
+            <label>Name:</label>
+            <input type="text" id="name">
+            <label>Hometown:</label>
+            <input type="text" id="hometown">
+            <label>Email:</label>
+            <input type="text" id="email">
+        </form>
+            
+        <!--- Sign Now Button --->
+        <button id="sign-now-button">Sign Now</button>
+    </div>
+
+    <!-- Modal -->
+    <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Thank you for your support!</p>
+        <img id="cat" src="img/cat.jpg">
+        <!-- button here (stretch feature) -->
+         <button id="close-modal">Close</button>
+      </div>
+      <!-- image here-->
+    </div>
+      
+  </div>
+
+    <!--- Latest Trend (Video) --->
+    <div class="body-container revealable">
+        <h2>Latest Trends</h2>
+        <h3>Discover how individuals fall victim to notorious romance scams</h3>
+        <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LOPz4_ryviE?si=V4drcq2LxeB-xlhl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </p>
+    </div>
+
+    <div class="body-container">
+        <h2>Resources</h2>
+        <article>
+            <h3>Federal Trade Commision Consumer Advice</h3>
+            <a id="article" href="https://consumer.ftc.gov/scams">
+                <!-- <p id="article"></p> -->
+                Learn about the latest scams, and get advice to help you avoid, report, and recover from them.
+            </a>
+        </article>
+        
+
+        <a id="article" href="https://www.gasa.org/">
+            <article>
+                <h3>Global Anti-Scam Alliance</h3>
+                <p id="article">Protecting Consumers Worldwide from Scams</p>
+            </article>
+        </a> 
+    </div>
+
+    <div class="footer">
+        <h5>Follow Us</h5>
+        <a href="https://www.facebook.com">
+            <img src="img/facebook.png" width=35px/>
+        </a>
+        <a href="https://www.linkedin.com">
+            <img src="img/linkedin.png" width=35px/>
+        </a>
+    </div>
+</body>
+
+<script src="index.js"></script>
+    
+</html>
+
