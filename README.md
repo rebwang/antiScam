@@ -33,4 +33,6 @@ antiScam is a front-end website dedicated to educating users about common scam t
 - Click the social media icons to explore related pages.
 
 ## Video Walkthrough
-[Project Video](img/antiScam.gif)
+Here's a walkthrough of implemented features:
+
+<img src='img/antiScam.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
